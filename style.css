@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-
+/*CONFIGURAÇÕES GLOBAIS*/
 *{
     padding: 0px;
     margin: 0px;
@@ -20,6 +20,22 @@
     --fonteDestaque: 'Press Start 2P', monospace;
 }
 
+body{
+    background-color: var(--cor4);
+}
+
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    background-color: var(--cor4);
+}
+
+ul{
+    list-style-position: inside;
+}
+/*CABEÇALHO*/
 header{
     text-align: center;
     background-image: linear-gradient(to top, var(--cor0), var(--cor3));
@@ -35,11 +51,14 @@ header h1{
     text-shadow: 2px 5px 15px rgba(0, 0, 0, 0.315);
 }
 
+/*BOTÕES DE NAVEGAÇÃO*/
 nav{
     background-color: var(--cor0);
     font-family: var(--fonteDestaque);
     padding: 0px 0px 5px 10px;
+    text-shadow: 2px 5px 15px rgba(0, 0, 0, 0.315);
 }
+
 nav a {
     text-decoration: none;
     color: white;
@@ -48,6 +67,8 @@ nav a {
 nav a:hover{
     color: black;
 }
+
+/*CONTEÚDO PRINCIPAL*/
 main{
     background-color: white;
     margin: auto ;
@@ -60,12 +81,9 @@ main{
 
 main h2{
     padding: 2px;
+    margin-bottom: 20px;
     font-family: var(--fonteDestaque);
     background-image: linear-gradient(to right, var(--cor4), transparent);
-}
-
-body{
-    background-color: var(--cor4);
 }
 
 div {
@@ -73,24 +91,20 @@ div {
     margin: 0px 20px 0px 20px;
 }
 
+/*PRIMEIRO DIV*/
 #perfil img{
     margin-bottom: 10px;
     padding: 20px;
 }
-
-
 
 #perfil p{
     text-align: justify;
     text-indent: 20px;
 }
 
-a:visited{
-    color: brown;
-}
-
-a:hover{
-    background-color: var(--cor4);
+/*SEGUNDA DIV*/
+#redes img{
+    padding: 5px 5px 5px 5px;
 }
 
 
