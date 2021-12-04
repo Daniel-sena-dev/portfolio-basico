@@ -28,3 +28,6 @@ section p{
     padding: 20px;
 }
 
+section input{
+    width: 40%;
+}
