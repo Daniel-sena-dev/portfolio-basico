@@ -69,18 +69,14 @@ nav a {
 nav a:hover{
     color: black;
     background-color: var(--cor4);
+    border-radius: 3px;
 }
 
 nav a {
     border-radius: 0px;
     padding-right: 5px ;
-    border-right: 1px solid white;
+    
 }
-
-nav a:last-child{
-    border: none;
-}
-
 
 /*CONTEÚDO PRINCIPAL*/
 main{
@@ -130,3 +126,15 @@ div {
     list-style-type: circle;
 }
 
+/*projeto*/
+#listaprojeto{
+    list-style-position: inside;
+    list-style-type: square;
+}
+.linksprojetos{
+    text-decoration: none;
+    color: black;
+}
+.linksprojetos:hover{
+    text-decoration: underline;
+}
