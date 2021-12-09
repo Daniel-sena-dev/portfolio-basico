@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simples</title>
+    <link rel="stylesheet" href="calculadoraSimples.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Calculadora Simples:</h1>
+            <input type="button" value="+" class="botao" onclick="somar()">
+            <input type="button" value="-" class="botao" onclick="subtracao()">
+            <input type="button" value="*" class="botao" onclick="multiplicacao()">
+            <input type="button" value="/" class="botao" onclick="divisao()">
+
+            <p>
+                <input type="number" name="numero1" id="numero1" placeholder="0"> 
+                <input type="number" name="numero2" id="numero2" placeholder="0">
+            </p>
+
+            <div id="saida">
+                <ol>
+                    <li>Digite os números para realizar a operação.</li>
+                    <li>E clique nos botões acima para selecionar a operação.</li>
+                </ol>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="calculadoraSimples.js"></script>
+    
+</body>
+</html>

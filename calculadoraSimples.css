@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightblue;
+}
+
+section{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.274);
+}
+
+ul{
+    list-style-position: inside;            
+}
+
+.botao{
+    font-weight: bold;
+    width: 50px;
+    height: 40px;
+}
