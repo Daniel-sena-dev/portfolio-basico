@@ -11,6 +11,7 @@ function submeter(){
         
         saida.innerHTML += `<div class="divcheck"><input type="checkbox" name="lista" id="lista"> ${tarefa}</div>`
         
+        
     }
 
 }
