@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="listaSimples.css">
+</head>
+<body>
+    <section>
+        <h1>Crie sua lista:</h1>
+        <p>
+            <input type="text" name="atividade" id="atividade" placeholder="Digite sua atividade" shiftKey="submeter()">
+            <input type="button" value="+" onclick="submeter()" class="botao" id="mais">
+             <input type="reset" value="Resetar" onclick="resetar()" class="botao" id="resetar">
+        </p>
+
+        <div id="lista"></p>       
+
+    </section>
+
+    <script src="listaSimples.js"></script>
+    
+</body>
+</html>
