@@ -1,13 +1,12 @@
 function calcular(){
-    var altura = document.querySelector('input#altura')
-    var alturaM = Number(altura.value)
-    var peso = document.querySelector('input#peso')
-    var pesoK = Number(peso.value)
+    var altura = Number(document.querySelector('input#altura').value)
+    var peso = Number(document.querySelector('input#peso').value)
     var saida = document.querySelector('div#res')
-    var IMC = (pesoK / (alturaM * alturaM))
-    
+    var alturaM = altura / 100
+    var IMC = (peso/(Math.pow(alturaM, 2)))
+    //alert(peso)
 
-    if (pesoK <= 0 || alturaM <= 0){
+    if (peso <= 0 || altura <= 0){
         window.alert("[ERRO] peso ou altura inválido!, digite novamente")
     } else if (IMC < 18.5){
         saida.innerHTML = `Seu IMC é de <strong>${IMC.toFixed(2)}</strong>, você está abaixo do peso!.`
