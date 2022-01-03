@@ -10,13 +10,15 @@
 <body>
     <section>
         <h1>Crie sua lista:</h1>
-        <p>
-            <input type="text" name="atividade" id="atividade" placeholder="Digite sua atividade" shiftKey="submeter()">
-            <input type="button" value="+" onclick="submeter()" class="botao" id="mais">
-             <input type="reset" value="Resetar" onclick="resetar()" class="botao" id="resetar">
-        </p>
+        <form>
+            <p>
+                <input type="text" name="atividade" id="atividade"  placeholder="Digite sua atividade">
+                <input type="submit" value="+" formaction="javascript:submeter()" class="botao" id="mais">
+                <input type="submit" value="Resetar" onclick="resetar()" class="botao" id="resetar">
+            </p>
+        </form>
 
-        <div id="lista"></p>       
+        <div id="lista"></div>       
 
     </section>
 
